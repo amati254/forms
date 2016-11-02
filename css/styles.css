@@ -1,0 +1,17 @@
+.container{
+  width: 400px;
+  margin-top: 130px;
+}
+#name, #secondname, #email{
+  height: 50px;
+}
+#lblname{
+  padding-left: 10px;
+}
+hr{
+   border-style: solid;
+   border-width: 2px;
+}
+#textarea{
+  height: 100px;
+}

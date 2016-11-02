@@ -1,6 +1,14 @@
-var beverage = parseInt($("#beverage").val());
+$(document).ready(function(){
+  var submit = function(){
+    var fname = $("#name").val();
+    var sname = $("#secondname").val();
+    var mail = $("#email").val();
+    var tarea = $("#textarea").val();
 
-var flavour = $("input:radio[name=flavour]:checked").val();
+    $("#sub").submit(function(event){
+      alert("Thank you" +fname+ "for taking the survey");
+      event.preventDefault();
+    });
+  };
 
-var dob = $("#born").val();
-console.log(beverage);
+});
